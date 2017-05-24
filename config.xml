@@ -2,7 +2,7 @@
 
 <widget xmlns ="http:/www.w3.org/ns/widgets"
    xmlns:gap= "http://phonegap.example8"
-   ID ="com.phonegap.example1"
+   ID ="com.phonegap.example9"
    version="1.0.1">
    
    <name> app9 Geolocalizacion</name>
@@ -35,7 +35,7 @@
 	
 	
 	
-	<!--Colocar icono app-->
+
 	
  <icon src="res/android/mdpi.png"/>
  
