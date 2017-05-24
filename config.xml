@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?> 
 
-<widget xmlns ="http:/www.w3.org/ns/widgets"
-   xmlns:gap= "http://phonegap.example8"
+<widget xmlns ="http://www.w3.org/ns/widgets"
+   xmlns:gap= "http://phonegap.com/ns/1.0"
    ID ="com.phonegap.example9"
    version="1.0.1">
    
@@ -15,7 +15,7 @@
     Sebastian Rodriguex Cabrera
    </author>
    
-  <!--pERSONALIZA LA APLICACION Y PLATAFROMA-->
+  <!--PERSONALIZA LA APLICACION Y PLATAFROMA-->
   <preference name="orientation" value="default"/>
   <!-->preference name="orientation" value="portrait"/>
   <preference name="orientation" value="landscape"/>-->
