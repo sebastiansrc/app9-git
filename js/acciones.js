@@ -1,7 +1,7 @@
 // JavaScript Document
 
  $(document).ready(function(e) {
- document .addEventListener("deviceready",onDeviceReady,false);
+ document.addEventListener("deviceready",onDeviceReady,false);
  
 });
 
@@ -24,7 +24,7 @@ function  onDeviceReady(){
 	  maximumAge:3600000
   }
   
-  var watchID =navigator.geolocation.getCurrentPosition(onSuccess. onError,options);
+  var watchID = navigator.geolocation.getCurrentPosition(onSuccess, onError,options);
   
   function onSuccess(position){
 	  
@@ -45,7 +45,7 @@ function  onDeviceReady(){
 
 function watchPosition(){
 	
-	var options ={
+	var options = {
 		maximumAge :3600000,
 		timeout:3000,
 		enableHighAccuracy :true,
@@ -59,7 +59,7 @@ $('#latitud').html(position.coords.latitud);
 $('#longitud').html(position.coords.longitud);
 $('#altitud').html(position.coords.altitud);
 $('#accuracy').html(position.coords.accuracy);
-$('#aaccuracy').html(position.coords.aaccuracy);
+$('#aaccuracy').html(position.coords.altitudeAccuracy);
 $('#headingg').html(position.coords.heading);
 $('#speed').html(position.coords.speed);
 $('#timestamp').html(position.timestamp);
